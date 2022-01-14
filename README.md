@@ -32,9 +32,10 @@
  
 3. The file PageRank.cpp in the scripts folder computes the page rank of vertices of a graph using boost's page rank library.
  IN: ASCII format edge list <src>,<tgt>\n
- OUT1: ASCII list in the format <vertex> <,>< page_rank_value> <\n>
+ OUT: Binary file in the format <vertex> <page_rank_value>, where each of vertex and page_rank_value is 4 bytes.
+
  
   
 4. The file TopologicalSort.cpp in the scripts folder computes the fixed point meta spanning graph.
  IN: ASCII format meta edge list <src meta node>,<tgt meta node>,<number of meta edges>\n
- OUT1: ASCII list in the format <meta node v> <,>< meta node u> <,> <weight> <\n>
+ OUT: ASCII list in the format <meta node v> <,>< meta node u> <,> <weight> <\n>
